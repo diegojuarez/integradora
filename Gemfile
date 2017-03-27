@@ -16,6 +16,13 @@ gem 'spree_gateway' , '~> 3.2.0.beta'
 gem 'spree_static_content' , github: 'spree-contrib/spree_static_content'
 gem 'spree_i18n' , github: 'spree-contrib/spree_i18n'
 
+group :assets do
+  gem 'therubyracer'
+  gem 'sass-rails', "  ~> 5.0"
+  gem 'coffee-rails', "~> 4.2"
+  gem 'uglifier'
+end
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -49,6 +56,10 @@ end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+end
+group :production do
+    gem "pg"
+    gem "dm-postgres-adapter"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
