@@ -82,7 +82,10 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: spree_production
-  username: spree
-  password: <%= ENV['SPREE_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: utf8
+  database: d2ciaht14rgog5
+  pool: 5
+  username: yhgrlwrltaumyu
+  password: f0ee7ab4c5dad80ae781ba5f23c4f1f7e2bc1029db9eef8b7112e5f34e97f543
+  host: ec2-107-22-223-6.compute-1.amazonaws.com
