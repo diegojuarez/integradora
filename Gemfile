@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 # Use postgresql as the database for Active Record
-
+gem 'pg', '~> 0.18'
 gem 'spree'
 gem 'spree_auth_devise' , '~> 3.2.0.beta'
 gem 'spree_gateway' , '~> 3.2.0.beta'
@@ -53,10 +53,6 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
-group :production do
-   gem 'therubyracer-heroku', '~> 0.8.1.pre3'
-   gem "pg"
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
