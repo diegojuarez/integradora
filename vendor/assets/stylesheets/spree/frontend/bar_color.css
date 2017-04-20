@@ -8,5 +8,9 @@
 }
 
 #content {
-	background-color: #adebad;
+	background-color: #00cccc;
+}
+#sidebar {
+	background-color: #006666;
+	color: #ffffff;
 }
