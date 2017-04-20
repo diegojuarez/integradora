@@ -1,14 +1,22 @@
 .navbar-inverse{
-	background-color: #e6ffff;
-	border-color: #e6ffff;
+	background-color: #ffffff;
+	border-color: #ffffff;
 }
 
 #spree-header {
-	background-color: #e6ffff;
+	background-color: #ffffff;
+}
+
+#header{
+	background-color: #ffffff;
+
 }
 
 .container{
 	background-color: #009999;
+	
+}
+#sidebar{
 	color: #ffffff;
 }
 
