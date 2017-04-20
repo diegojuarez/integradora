@@ -19,4 +19,4 @@ end
 
 Spree::Frontend::Config[:locale] = 'es-MX'
 Spree::Backend::Config[:locale] = 'es-MX'
-Spree.user_class = "Spree::LegacyUser"
+Spree.user_class = "Spree::User"
